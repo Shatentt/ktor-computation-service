@@ -1,4 +1,4 @@
-package com.example.dto // <-- ЗАМЕНИТЕ на ваше_имя_пакета.dto
+package com.example.dto
 
 import kotlinx.serialization.Serializable
 
