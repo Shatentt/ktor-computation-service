@@ -6,8 +6,8 @@ import io.ktor.server.application.*
 fun main(args: Array<String>) {
     embeddedServer(
         factory = io.ktor.server.netty.Netty,
-        port = 8080,
+        port = 8082,
         host = "0.0.0.0",
-        module = Application::rootModule
+        module = Application::module
     ).start(wait = true)
 }
