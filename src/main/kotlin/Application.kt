@@ -11,3 +11,7 @@ fun Application.module() {
 
     configureRouting(taskManager)
 }
+
+fun Application.rootModule() {
+    module()
+}
